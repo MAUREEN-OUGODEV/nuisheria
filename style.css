@@ -1,0 +1,345 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   
+}
+     
+      html {
+        font-size: 62.5%;
+      } 
+      
+      body {
+        font-size: 1.6rem;
+      }
+      .landpage{
+        width: 100%;
+      }
+      .image p{
+        font-size: 2rem;
+      }
+      
+      html {
+        font-size: 62.5%;
+      } 
+      
+      body {
+        font-size: 1.6rem;
+      }
+      .landpage{
+        width: 100%;
+      }
+
+.navbar{
+    padding: 2rem;
+    background-color: rgba(20, 20, 20, 0.7);
+    height: 2rem;
+    position: absolute;
+    width: 90%;
+    
+    
+}
+.navbar a {
+ margin-left: 8%; 
+text-decoration: none;
+color: aliceblue;
+
+
+}
+#nuro{
+    color: blue;
+    font-size: 1.5rem;
+}
+.login{
+  border: 0.2rem solid blue;
+  padding: 1rem 3rem 1rem 3rem;  
+  border-radius: 10px;
+  color: blue;
+}
+.facilitiesPage h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.popularpage button{
+margin: 2rem ;
+margin-left: 30rem;
+padding: 2rem 10rem 2rem 10rem;
+border-radius: 0.5rem;
+background-color: transparent;
+border-color: blue;
+}
+.burj img{
+    border-radius:0.6rem ;
+}
+
+.burj h3{
+margin-top: -10%;
+color: antiquewhite;
+font-size: 2rem;
+}
+.signup{
+    padding: 1rem 3rem 1rem 3rem;  
+  border-radius: 10px;
+  background-color: blue;
+  color: bisque;
+}
+.landPage{
+    background-image: url(./images/erik-mclean-jR767RMS8jY-unsplash.jpg);
+    height: 40rem;
+    background-size: cover;
+    width: 100%;
+}
+.scape{
+    background-color: rgba(24, 21, 21, 0.6);
+    height: 40rem;
+}
+.headingOne{
+    text-align: center;
+    padding-top: 10%;
+    color: beige;
+}
+.headingOne h1{
+    font-size: 7rem;
+}
+.headingTwo{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+   margin: 0% 10% 0% 10%;
+   background-color: aliceblue;
+   width: 50rem;
+   margin-left:40rem;
+   border-radius: 20px;
+   padding: 10px;
+
+}
+.popularpage h1{
+    text-align: center;
+    margin: 2%;
+    font-size: 5rem;
+}
+.roomspage h1{
+    text-align: center;
+    font-size: 4rem;
+}
+.roomspage p{
+    text-align: center; 
+    padding: 2rem;
+    font-weight: bolder;
+}
+.land{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 2%;
+}
+
+
+.burj img{
+height: 400px;
+width: 400px;
+
+}
+.facilities{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+}
+.breakfast ion-icon{
+    color: blue;
+    width: 100px;
+    height: 100px;
+}
+.breakfast{
+   margin: 2%;
+   padding: 3rem;
+box-shadow: 0 0.2rem 0.2rem 0.2rem rgba(218, 206, 206, 0.8);
+border-radius: 2px;
+}
+.bedphotos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.bedone{
+    margin: 5%;
+    box-shadow: 0 0.2rem 0.2rem 0.2rem rgba(218, 206, 206, 0.8);
+    text-align: center;
+}
+.bedone img{
+    height: 40rem;
+    width: 40rem;
+
+   
+}
+.bedone ion-icon{
+    color: blue;
+}
+.rates{
+    display: flex;
+    margin-left: 10%;
+    
+
+}
+.stars{
+    padding-left: 20%;
+}
+.bedone button{
+    padding: 1rem 2rem 1rem 2rem;
+    margin-left: 10% ;
+    background-color: blue;
+    color: antiquewhite;
+    margin-top: 5%;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 5%;
+
+}
+.food{
+    box-shadow: 0 0.2rem 0.2rem 0.2rem rgba(218, 206, 206, 0.8);
+    margin: 5%;
+}
+.menuheadings{
+text-align: center;
+
+}
+.foodone{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    font-size: 2rem;
+    padding: 2%;
+}
+.foodpage{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.food img{
+    height: 40rem;
+    width: 40rem;
+}
+.ourClient{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.photos img{
+    height: 5rem;
+    width: 5rem;
+
+    border-radius: 20rem;
+}
+.customers2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.detailsaid{
+    padding-top: 10%;
+}
+.luxury{
+    display: flex;
+  padding: 5%;
+}
+.para2{
+    font-size: 2rem;
+}
+.luxury ion-icon{
+height: 8rem;
+width: 8rem;
+color: blue;
+background-color: rgb(223, 211, 200);
+border-radius: 3rem;
+}
+.clientpage h1{
+text-align: center;
+padding: 5%;
+}
+.newsletter{
+    background-color: rgb(7, 7, 165);
+    border-radius: 5rem 5rem 0rem 0rem;
+    
+}
+.ourClient{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.peopleone{
+    margin-left: 10%;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    
+}
+.personOne{
+    background-color: aliceblue;
+    box-shadow: 0 0.2rem 0.2rem 0.2rem rgba(218, 206, 206, 0.8);
+    text-align: center;
+    padding: 10%;
+}
+.photos img{
+margin-top: -80%;
+}
+.money button{
+    margin: 3%;
+    padding:1rem 2rem 1rem 2rem;
+    background-color: rgb(10, 10, 248);
+    color: aliceblue;
+    border-radius: 10px;
+}
+.customers h1{
+    text-align: center;
+
+}
+.heading6{
+    text-align: center;
+    padding: 50px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.subscribe{
+    text-align: center;
+    padding:50px ;
+}
+.subscribe input{
+    padding:15px 300px 15px 40px ;
+    border-radius: 40px;
+}
+.subscribe button{
+    margin-left: -14%;
+    background-color: blue;
+    padding:10px 50px 10px 50px ;
+    border-radius: 40px;
+}
+.footer{
+    background-color: rgb(208, 213, 218,0.7);
+}
+.endpage{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  
+    padding-top: 5%;
+}
+.twitter ul{
+    padding-top: 10%;
+}
+.twitter ul li{
+  list-style: none;
+  padding: 2%;
+  
+}
+.button{
+    margin-left: 20%;
+}
+.button a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 767px){
+    .navbar{
+      display: grid; 
+      grid-template-columns: (1,);
+    
+    }
+    
+
+    }
+
