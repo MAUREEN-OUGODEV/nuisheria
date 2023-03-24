@@ -1,0 +1,72 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    padding-top: 2rem;
+        background-color: rgb(226, 216, 202,0.7);
+        height: 5rem;
+    }
+    .navbar a{
+    margin-left: 10%;
+    text-decoration: none;
+    color: rgb(8, 8, 1);
+    }
+    .aboutpage{
+        background-color: rgb(224, 221, 221);
+    }
+    h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .firstpic{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 2%;
+    }
+    .secondpic{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 2%;
+    }
+    .paragraph p{
+        font-size: 1.5rem;
+    }
+    .paragraph2 p{
+        font-size: 1.5rem ;
+    }
+    .picone img{
+    height: 30rem;
+    width:30rem;
+    border-radius: 10rem 0px 10rem 0px;
+    }
+    .secpic img{
+        height: 30rem;
+        width: 30rem;
+        border-radius: 10rem 0px 10rem 0px;
+    }
+    .bottom a{
+        margin-left:20% ;
+        text-decoration: none;
+        border: 2px solid blue;
+        padding: 10px 40px 10px 40px ;
+        border-radius: 10px;
+
+    }
+    .footer{
+        background-color: rgb(208, 213, 218,0.7);
+    }
+    .endpage{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+      
+        padding-top: 5%;
+    }
+    .twitter ul{
+        padding-top: 10%;
+    }
+    .twitter ul li{
+      list-style: none;
+      padding: 2%;
+      
+    }

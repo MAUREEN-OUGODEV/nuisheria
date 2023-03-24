@@ -10,6 +10,7 @@
       
       body {
         font-size: 1.6rem;
+        overflow-x: hidden;
       }
       .landpage{
         width: 100%;
@@ -34,7 +35,7 @@
     background-color: rgba(20, 20, 20, 0.7);
     height: 2rem;
     position: absolute;
-    width: 90%;
+    width: 100%;
     
     
 }
@@ -61,7 +62,7 @@ color: aliceblue;
 }
 .popularpage button{
 margin: 2rem ;
-margin-left: 30rem;
+margin-left: 50rem;
 padding: 2rem 10rem 2rem 10rem;
 border-radius: 0.5rem;
 background-color: transparent;
@@ -84,18 +85,19 @@ font-size: 2rem;
 }
 .landPage{
     background-image: url(./images/erik-mclean-jR767RMS8jY-unsplash.jpg);
-    height: 40rem;
+    height: 50rem;
     background-size: cover;
     width: 100%;
 }
 .scape{
     background-color: rgba(24, 21, 21, 0.6);
-    height: 40rem;
+    height: 50rem;
 }
 .headingOne{
     text-align: center;
     padding-top: 10%;
     color: beige;
+    padding-right: 20%;
 }
 .headingOne h1{
     font-size: 7rem;
@@ -103,10 +105,10 @@ font-size: 2rem;
 .headingTwo{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-   margin: 0% 10% 0% 10%;
+   
    background-color: aliceblue;
    width: 50rem;
-   margin-left:40rem;
+   margin-left:-200px;
    border-radius: 20px;
    padding: 10px;
 
@@ -333,13 +335,40 @@ margin-top: -80%;
     border-color: blue;
     border-radius: 10px;
 }
-@media only screen and (max-width: 767px){
+@media screen and (max-width: 2560px){
+    body{
+        /* overflow-x: hidden; */
+        
+    }  
     .navbar{
-      display: grid; 
-      grid-template-columns: (1,);
+        gap:10%;
+        width: 100%;
+    }
+    .navbar a{
+        padding-left: 0rem;
     
+    } 
+    .landPage{
+        width: 230rem;
+
+    }
+
+
+    
+    .headingTwo{
+        margin-left: 15%;
+
+    }
+    .headingOne{
+        margin-right: 20%;
     }
     
+    .burj{
+        gap: 0rem;
+    }
+    .popularpage button{
+        
+    }
 
     }
 

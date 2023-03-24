@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(182, 187, 182);
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    padding: 2rem;
+    background-color: rgba(148, 146, 146, 0.7);
+    height: 2rem;
+
+    width: 100%;
+    overflow: hidden;
+    
+    
+}
+.navbar a {
+ margin-left: 8%; 
+text-decoration: none;
+color: aliceblue;
+
+
+}
+#nuro{
+    color: blue;
+    font-size: 1.5rem;
+}
+.login{
+  border: 0.2rem solid blue;
+  padding: 1rem 3rem 1rem 3rem;  
+  border-radius: 10px;
+  color: blue;
+}
+.contactUs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.input{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10%;
+}
+.contactpage{
+    text-align: center;
+}
+.contactDetail{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.firstinput input{
+    padding: 10px 40px 10px 40px;
+    border: none;
+
+}
+.secinput input{
+    padding: 10px 40px 10px 40px;
+    border: none;
+}
+.high input{
+    padding: 100px 200px 100px 200px;
+    border: none;
+    border-radius: 0px 0px 50px 0px;
+
+
+}
+.button{
+    margin-left: 20%;
+}
+.button button{
+    padding: 20px 40px 20px 40px;
+    background-color: rgb(109, 111, 236);
+    color: rgb(250, 246, 241);
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 5%;
+
+}
+.footer{
+    background-color: rgba(241, 243, 245, 0.7);
+}
+.endpage{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  
+    padding-top: 2%;
+}
+.twitter ul{
+    padding-top: 0%;
+}
+.twitter ul li{
+  list-style: none;
+  padding: 2%;
+  
+}
